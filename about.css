@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'Pizius';
+	src: 
+		url("/fonts/PIZIUS.ttf") format("truetype")
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5vh;
+    letter-spacing: 1px;
+
+}
+
+.englishtext {
+
+    font-family: 'Pizius' ;
+
+    font-size: 3vh;
+    
+}

@@ -1,0 +1,629 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    background: linear-gradient(to top,#f8e2e2 ,white);
+    overflow: hidden;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+
+    max-height: 100vh;
+  
+    }
+    
+    .nav { grid-area: 1 / 1 / 2 / 9;
+        margin-left: -px;
+        height: 12vh;
+    border-bottom: 2px solid black;
+    
+    }
+
+    .logo {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 1px;
+        font-size: 5vh;
+        
+    }
+
+    .burger {
+        margin-left: 6px;
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        background: black;
+       
+        
+    }
+
+    .burger a {
+        color: black;
+        font-size: 15px;
+        position: center;
+    }
+
+    .van { grid-area: 1 / 1 / 7 / 1; 
+    background-color: rgb(208, 97, 56);
+    background-image: url(sip.png);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s;
+    filter: grayscale(0%);
+    height: 100%;
+
+    
+    
+        animation: fadein 2s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari et Chrome */
+        -o-animation: fadein 2s; /* Opera */
+    }
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* sur Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* sur Safari et Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-o-keyframes fadein { /* sur Opera */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity: 1;
+        }
+    
+    
+   }
+
+
+   .van:hover {
+      filter: grayscale(90%);
+      transform: scale(0.97);
+
+   }
+   
+
+
+
+
+
+
+    .brieu { grid-area: 1 / 2 / 7 / 2; 
+    background-color: aqua;
+    background-image: url(brieuuu.JPG);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s;
+    filter: grayscale(0%);
+    height: 100%;
+
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari et Chrome */
+    -o-animation: fadein 4s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+
+
+    }
+
+    .brieu:hover {
+       
+        filter: grayscale(90%);
+        transform: scale(0.97);
+    }
+
+
+    .cagoule { grid-area: 1 / 3 / 7 / 3; 
+    background-color: brown;
+    background-image: url(chev.JPG);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s;
+    filter: grayscale(0%);
+    height: 100%;
+
+    animation: fadein 5s;
+        -moz-animation: fadein 5s; /* Firefox */
+        -webkit-animation: fadein 5s; /* Safari et Chrome */
+        -o-animation: fadein 5s; /* Opera */
+    }
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* sur Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* sur Safari et Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-o-keyframes fadein { /* sur Opera */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity: 1;
+        }
+
+    }
+
+    .cagoule:hover {
+       
+        filter: grayscale(90%);
+        transform: scale(0.97);
+     }
+
+
+
+    .eli { grid-area: 1 / 4 / 7 / 4; 
+        background-color: rgb(32, 4, 4);
+    background-image: url(eli.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s;
+    filter:brightness(100%);
+
+    animation: fadein 6s;
+    -moz-animation: fadein 6s; /* Firefox */
+    -webkit-animation: fadein 6s; /* Safari et Chrome */
+    -o-animation: fadein 6s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+
+
+}
+
+     .eli:hover {
+       
+        filter: brightness(160%);
+        transform: scale(0.97);
+    }
+
+
+
+    .rod { grid-area: 1 / 5 / 7 / 5;
+        background-color: rgb(237, 202, 157);
+    background-image: url(rod.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s;
+     filter:brightness(100%);
+     height: 100%;
+    }
+
+
+.rod:hover {
+       
+        filter: brightness(160%);
+        transform: scale(0.97);
+    }
+
+
+
+    .rem { grid-area: 1 / 6 / 7 / 6; 
+        background-color: rgb(151, 208, 208);
+    background-image: url(rem.png);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s;
+    filter:brightness(100%);}
+
+     .rem:hover {
+       
+        filter: brightness(130%);
+        transform: scale(0.97);
+    }
+
+
+    .fire { grid-area: 1 / 7 / 7 / 7;
+        background-color: rgb(186, 156, 178);
+    background-image: url(fire.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s;
+    filter: grayscale(0%);
+    height: 100%;
+
+}
+
+
+.fire:hover {
+       
+    filter: grayscale(90%);
+    transform: scale(0.97);
+}
+
+
+.ser { grid-area: 1 / 8 / 7 / 8;
+
+background-color: brown;
+
+}
+
+
+    .rose { grid-area: 1 / 1 / 6 / 1; 
+        background-color: aqua;
+        background-image: url(true.jpg);
+        background-size: cover;
+        background-position: center;
+        transition: all 0.3s;
+         filter: grayscale(0%);
+         height: 100%;
+    }
+
+    .rose:hover {
+       
+        filter: grayscale(90%);
+        transform: scale(0.97);
+    }
+
+
+    .nina { grid-area: 1 / 2 / 6 / 2;
+        background-color: rgb(218, 147, 210);
+        background-image: url(nina.jpg);
+        background-size: cover;
+        background-position: center;
+        transition: all 0.3s;
+         filter: grayscale(0%);
+         height: 100%;
+     }
+
+     .nina:hover {
+       
+        filter: grayscale(90%);
+    
+        transform: scale(0.97);
+    }
+
+
+
+
+
+    .ivan { grid-area: 1 / 3 / 6 / 3;
+        background-color: rgb(185, 177, 228);
+        background-image: url(IVAN.jpg);
+        background-size: cover;
+        background-position: center;
+        transition: all 0.3s;
+        filter:brightness(100%);
+        width: (100%);
+        height: 100%
+        
+        ;
+     }
+
+
+     .ivan:hover {
+       
+        filter: brightness(160%);
+        
+        transform: scale(0.97);
+    }
+
+
+    .unr { grid-area: 1 / 4 / 6 / 4;
+         background-color: rgb(168, 223, 165);
+         background-image: url(unr.png);
+         background-size: cover;
+         background-position: left;
+         transition: all 0.3s;
+         filter:brightness(100%);
+         width: (100%);
+         height: 100;
+
+         }
+
+
+        .unr:hover {
+       
+            filter: brightness(135%);
+            transform: scale(0.97)
+        }
+    
+
+    .dg { grid-area: 1 / 5 / 6 / 5;
+         background-color: aqua;
+         background-image: url(dg.jpg);
+         background-size: cover;
+         background-position: center;
+         transition: all 0.3s;
+         filter:brightness(80%);
+         width: 100%;
+        }
+
+        .dg:hover {
+       
+            filter: brightness(110%);
+            transform: scale(0.97); 
+        }
+
+
+    .lei { grid-area: 1 / 6 / 6 / 6;
+
+        background-color: coral;
+    }
+    
+
+    .mimi { grid-area: 1 / 7 / 6 / 7;
+
+        background-color: aquamarine;
+    }
+
+
+    .lolli { grid-area: 1 / 8 / 6 / 8;
+
+        background-color: lightyellow;
+    }
+
+
+    .side1 { grid-area: 2 / 1 / 6 / 2;
+     border-right: 2px solid black;}
+
+    .side2 { grid-area: 2 / 8 / 6 / 9;
+     border-left: 2px solid black;
+    }
+    
+
+ .button {
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     background: transparent;
+     background: 40px;
+     border: 0;
+     cursor: pointer;
+     color: white;
+ }
+
+
+ .two { grid-area: 2 / 2 / 4 / 3; 
+    background-color: rgb(208, 97, 56);
+    }
+
+
+.three { grid-area: 2 / 3 / 4 / 4; 
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slide {
+    width: 200vw;
+    height: 70vh;
+    display: grid;
+    justify-content:cover;
+    align-items: cover;
+    font-size: 100px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+   
+    border-bottom: 2px solid black;
+}
+
+
+.blocHorizontal {
+    display: flex;
+    flex-direction: row;
+    width: 400vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+.container {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-x: hidden;
+
+
+    /* pour ie et mozilla */
+    -ms-overlow-style: none;
+    scrollbar-width: none;
+}
+::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+}
+
+.one {
+    background-color: white;
+
+}
+
+.two {
+    background-color: antiquewhite;
+    
+}
+
+.three {
+   background-color:  lavender;
+   }
+
+.four {
+    background: black;
+    
+}
+
+.texte {
+    height : 100vh
+    width 100%;
+    display : flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    
+
+    
+    
+        animation: fadein 3s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari et Chrome */
+        -o-animation: fadein 2s; /* Opera */
+    }
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* sur Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* sur Safari et Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-o-keyframes fadein { /* sur Opera */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+
+
+.rights {
+
+    white-space: nowrap;
+    font-size: 110px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: Scroll 16s linear infinite;
+    color: rgb(239, 119, 95);
+}
+
+@keyframes Scroll {
+    0% {
+     transform: translateX(-100%);
+    }
+}

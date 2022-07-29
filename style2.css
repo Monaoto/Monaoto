@@ -1,0 +1,15 @@
+body,
+html,
+header {
+
+    padding: 0;
+    margin: 0;
+}
+
+.sec1 { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: center;
+    font-size: large;
+
+}
+
